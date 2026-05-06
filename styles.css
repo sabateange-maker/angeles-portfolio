@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #eaeaea;
+}
+
+/* HEADER FIJO */
+.header-fijo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.header-fijo h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 5px;
+    color: #f5c6d6;
+}
+
+.header-fijo p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff; /* CAMBIO: blanco */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5c6d6;
+}
+
+main {
+    margin-top: 140px;
+}
+
+/* SECCIONES */
+.seccion {
+    background-color: #1f1f1f;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* TITULOS PRINCIPALES */
+.seccion h2 {
+    color: #f5c6d6; /* rosado */
+}
+
+/* SOBRE MI */
+.sobre-mi-contenedor {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.foto img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* HABILIDADES (AHORA OCUPAN TODO EL ANCHO) */
+.habilidades {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.habilidades .card {
+    flex: 1; /* ocupa mitad y mitad */
+}
+
+/* CARDS */
+.card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* PROYECTOS EN GRID */
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card img {
+    width: 60%; /* MÁS CHICA */
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* ICONOS */
+.icono {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+}
